@@ -1,0 +1,12 @@
+# crie um programa que calcule a média das provas do bimestre
+# não importa o número de provas que tenha
+
+provas = int(input("informe o Nº de provas: "))
+notas = 1; soma = 0.0
+
+while (notas <= provas):
+  print("nota da prova", notas,":")
+  nota = float(input("a nota é: "))
+  soma += nota
+  notas += 1
+print("a media é: ", (soma / provas))
